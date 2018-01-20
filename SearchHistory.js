@@ -5,7 +5,7 @@
  * his.add("标题", "连接 比如 http://www.baidu.com", "其他内容")；
  * 得到历史数据 返回的是json数据
  * var data = his.getList();  // [{title:"标题", "link": "http://www.baidu.com"}]
- *
+ * http://blog.csdn.net/u010924834/article/details/50544284
  */
 function History(key) {
     this.limit = 3;  // 最多10条记录
